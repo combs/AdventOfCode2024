@@ -45,7 +45,6 @@ with open("input", "r") as fh:
     for line in fh.readlines():
         vals = [ int(v) for v in line.split() ] 
         
-        
         score += validate(vals)
         
 print(score)
