@@ -34,9 +34,3 @@ for index in tqdm(range(1000000000)):
         print(str(index + 1) + ".png")
         Image.fromarray(pixgrid).save(str(index + 1) + ".png")
         
-    
-
-
-
-
-        
